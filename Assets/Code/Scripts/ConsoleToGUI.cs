@@ -32,7 +32,7 @@ namespace Code.Scripts
         {
             var style = new GUIStyle {fontSize = fontSize};
             GUI.Label(
-                new Rect(10, 10, Screen.width/2 - 10, Screen.height/2 - 10), _output, style);
+                new Rect(50, 10, Screen.width/2 - 10, Screen.height/2 - 10), _output, style);
         }
 
         public void IncreaseFontSize(int by = 1)
