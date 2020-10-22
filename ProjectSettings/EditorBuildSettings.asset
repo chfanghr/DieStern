@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Level/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Level/Scenes/Experiments/SwipeToDisplayUIComponent.unity
+    guid: ae49c558d0c604910a47d6ddb7e86204
   m_configObjects: {}
