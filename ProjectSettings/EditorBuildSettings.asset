@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Level/Scenes/Experiments/ExperimentsEntry.unity
+    guid: efcd18a6a896d4468bade592bd24cf00
+  - enabled: 1
+    path: Assets/Level/Scenes/MainMenu.unity
+    guid: 2c3f50a7b4cf140d5ae662989a4351c1
+  - enabled: 1
     path: Assets/Level/Scenes/Experiments/SwipeToDisplayUIComponent.unity
     guid: ae49c558d0c604910a47d6ddb7e86204
+  - enabled: 1
+    path: Assets/Level/Scenes/Experiments/SettingWindow.unity
+    guid: 73ca3b4a19bcc49bfa08096855e2e6f4
   m_configObjects: {}
