@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Code.Scripts.UI.PauseMenu
+namespace Code.Scripts.UI.SettingMenu
 {
     public class VolumeSliderHelper : MonoBehaviour
     {
