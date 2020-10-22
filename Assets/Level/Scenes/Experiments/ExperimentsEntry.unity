@@ -1444,6 +1444,7 @@ MonoBehaviour:
   scenes:
   - SettingWindow
   - SwipeToDisplayUIComponent
+  - MainMenu
 --- !u!4 &1703752428
 Transform:
   m_ObjectHideFlags: 0
