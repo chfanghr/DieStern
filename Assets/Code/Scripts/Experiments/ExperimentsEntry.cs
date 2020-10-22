@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -22,6 +20,7 @@ namespace Code.Scripts.Experiments
         
         public void EnterScene()
         {
+            ReturnMainScene();
             _activatedSceneName = scenesMenu.captionText.text;
             SceneManager.LoadScene(_activatedSceneName, LoadSceneMode.Additive);
         }
