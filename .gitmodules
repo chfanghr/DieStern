@@ -1,0 +1,3 @@
+[submodule "Assets/ThirdParty/UnityStyleGuide"]
+	path = Assets/ThirdParty/UnityStyleGuide
+	url = https://github.com/stillwwater/UnityStyleGuide
