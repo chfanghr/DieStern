@@ -44,10 +44,10 @@ namespace Code.Scripts.FSM
 			if (states.Length < 1) { throw new ArgumentException("A FiniteStateMachine needs at least 1 state", "states"); }
 
 			_transitions = new Dictionary<TState, Dictionary<string, Transition<TState>>>();
-			this._states = new Dictionary<TState, StateController>();
+			_states = new Dictionary<TState, StateController>();
 			foreach (var value in states)
 			{
-				this._states.Add(value, new StateController());
+				_states.Add(value, new StateController());
 				_transitions.Add(value, new Dictionary<string, Transition<TState>>());
 			}
 		}
