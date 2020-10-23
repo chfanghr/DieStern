@@ -3,7 +3,7 @@ Shader "Unlit/InnerSpriteOutline"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-		_OutlineColor("Outline Color", Color) = (1,1,1,1)
+		_OutlineColor("Outline Color", Color) = (1,0,0,1)
     }
     SubShader
     {

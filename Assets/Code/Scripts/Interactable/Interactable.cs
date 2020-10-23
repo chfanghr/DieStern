@@ -21,11 +21,11 @@ namespace Code.Scripts.Interactable
         
         private void Start()
         {
-            if (Inspector == null)
-            {
-                enabled = false;
-                return;
-            }
+            // if (Inspector == null)
+            // {
+            //     enabled = false;
+            //     return;
+            // }
             _highlightMaterial = 
                 new Material(Shader.Find("Unlit/InnerSpriteOutline"));
             _defaultMaterial = SpriteRenderer.material;
@@ -33,12 +33,12 @@ namespace Code.Scripts.Interactable
 
         private bool _highlighted = false;
 
-        private Inventory Inventory => Singleton<Inventory>.Instance;
+        private static Inventory Inventory => Singleton<Inventory>.Instance;
         private Item Item => GetComponent<Item>();
         
         private void Update()
         {
-            if (Inspector.Collected)
+            if (Inspector !=null && Inspector.Collected)
             {
                 if (Item && Inventory)
                 {

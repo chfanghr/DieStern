@@ -1834,6 +1834,7 @@ MonoBehaviour:
   - SettingWindow
   - SwipeToDisplayUIComponent
   - MainMenu
+  - SpriteOutline
   debugLog: {fileID: 273761191}
 --- !u!4 &1703752428
 Transform:
