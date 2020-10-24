@@ -74,11 +74,11 @@ namespace Code.Scripts.UI.Inventory
         }
 
         private Vector3 _beginPosition;
-        private Vector3 _lastPosition;
-        
+
         public void OnBeginDrag(PointerEventData eventData)
         {
-            _beginPosition = _lastPosition = _rectTransform.position;
+            _beginPosition =  _lastMousePosition =
+                _rectTransform.position;
         }
 
         private bool _shouldPlaceBack = false;
