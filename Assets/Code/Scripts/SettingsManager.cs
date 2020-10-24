@@ -32,6 +32,7 @@ namespace Code.Scripts
         
         private void Start()
         {
+            Application.targetFrameRate = 300;
             ChangeVolume(PlayerPrefs.GetFloat(VolumeKey), false);
         }
     }
