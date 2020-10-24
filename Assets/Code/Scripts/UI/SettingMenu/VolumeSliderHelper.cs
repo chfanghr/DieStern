@@ -15,10 +15,10 @@ namespace Code.Scripts.UI.SettingMenu
 
         private void Start()
         {
-            if (Common.IsMobile)
-            {
-                gameObject.SetActive(false);
-            }
+            // if (Common.IsMobile)
+            // {
+            //     gameObject.SetActive(false);
+            // }
         }
     }
 }

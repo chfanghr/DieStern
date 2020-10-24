@@ -1,3 +1,6 @@
 [submodule "Assets/ThirdParty/UnityStyleGuide"]
 	path = Assets/ThirdParty/UnityStyleGuide
 	url = https://github.com/stillwwater/UnityStyleGuide
+[submodule "Assets/ThirdParty/unity-wakatime"]
+	path = Assets/ThirdParty/unity-wakatime
+	url = https://github.com/vladfaust/unity-wakatime.git
